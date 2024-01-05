@@ -1,0 +1,1 @@
+A partir de um número digitado, mostre o seu sucessor e antecessor

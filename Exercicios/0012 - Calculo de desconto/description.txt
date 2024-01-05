@@ -1,0 +1,2 @@
+Calcule o valor final de um produto a partir de um preço, o desconto deve ser de 
+5%

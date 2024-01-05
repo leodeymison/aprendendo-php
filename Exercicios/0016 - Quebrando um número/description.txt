@@ -1,0 +1,1 @@
+Pegue apenas a parte inteira do número flutuante

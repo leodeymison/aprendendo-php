@@ -1,0 +1,12 @@
+Faça um programa que leia o comprimento do cateto
+oposto e do cateto adjacente de um triângulo retângulo.
+Calcule e mostre o comprimento da hipotenusa.
+
+    |
+C.O |        X = H
+    |     
+    |__________________
+            C.A
+
+Link:
+https://www.todamateria.com.br/hipotenusa-como-calcular-sua-medida/#:~:text=O%20c%C3%A1lculo%20da%20hipotenusa%20%C3%A9,soma%20dos%20catetos%20ao%20quadrado%E2%80%9D.

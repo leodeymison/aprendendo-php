@@ -1,0 +1,2 @@
+Perguntar a nota dos 4 bimestres do aluno e mostrar a média do aluno e se ele
+foi aprovado

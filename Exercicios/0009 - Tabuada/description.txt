@@ -1,0 +1,10 @@
+Crie uma tabuada a partir do número escolhido pelo usuário
+
+Ex: usuário escolheu 1.
+1 X 1 = 1
+1 X 2 = 2
+...
+Até 
+1 X 10 = 10
+
+Adicione um menu que faça o usuário escolher um novo número da tabuada ou sair do sistema

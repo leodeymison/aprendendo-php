@@ -1,0 +1,3 @@
+Conversor de real para dolar
+
+Perguntar quanto tenho na carteira e retornar convertido

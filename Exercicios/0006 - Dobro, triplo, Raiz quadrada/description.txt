@@ -1,0 +1,5 @@
+Pegue um número digitado pelo usuário e retorne as seguintes informações.
+
+O dobro do número:
+O triplo do número:
+A raiz quadrada do número

@@ -1,0 +1,5 @@
+Crie mostrando um interface
+
+Criar um aplicativo que mostre a data em tempo real do computador
+
+Dia / mês / ano - hor:min:seg

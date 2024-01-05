@@ -1,0 +1,3 @@
+Escreva um texto genérico no bloco de notas
+
+https://www.freecodecamp.org/portuguese/news/manipulacao-de-arquivos-em-c-como-abrir-e-fechar-arquivos-e-escrever-algo-neles/

@@ -1,0 +1,11 @@
+Pegue as informações de uma variável digitada pelo usuário e responda as seguintes
+respostas
+
+- Tipo primitivo:
+- Só tem espaços?                       [true / false]
+- É um número?                          [true / false]
+- É um alfanumérico? (float)            [true / false]
+- É alfabético?                         [true / false]
+- Está e maiúsculas?                    [true / false]
+- Está em minúsculas?                   [true / false]
+- Está com a primeira letra maiúscula?  [true / false]

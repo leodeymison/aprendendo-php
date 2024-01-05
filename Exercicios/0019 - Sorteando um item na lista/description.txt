@@ -1,0 +1,3 @@
+Um professor quer sortear um dos seus quatros alunos para apagar o quadrado.
+Faça um programa que ajude ele, pegando os nomes deles e escrevendo na tela 
+a pessoa sorteada.

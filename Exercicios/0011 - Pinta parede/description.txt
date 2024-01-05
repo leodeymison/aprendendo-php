@@ -1,0 +1,2 @@
+Um programa que calcule quantos litros de tinta precisa para pintar uma parede,
+sendo que para cada 2m² é preciso de 1 litro de tinta.
