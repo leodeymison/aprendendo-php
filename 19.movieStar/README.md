@@ -21,3 +21,12 @@
 #### PESQUISAR
 
 <img src="./docs/img-search.png" height="300" /> <br />
+
+## TECNOLOGIAS
+
+- MYSQL com PDO
+- PHP
+- HTML
+- BOOTSTRAP
+- CSS
+- Design pattern DAO
