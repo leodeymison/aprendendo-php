@@ -4,7 +4,7 @@
 
 #### HOME
 
-<img src="./docs/img-home.png" height="300" /> <br />
+<img src="./docs/home.png" height="300" /> <br />
 
 #### VISUALIZAÇÃO
 
