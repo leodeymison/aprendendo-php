@@ -1,0 +1,72 @@
+## Criar banco de dados:
+CREATE DATABASE nome_do_banco;
+
+## Excluir banco de dados:
+DROP DATABASE nome_do_banco;
+
+## Tipos de dados:
+● VARCHAR: texto de 0 a 65535 caracteres;
+● TEXT: texto com no máximo 65535 bytes;
+● INT: números inteiros;
+● BIGINT: números inteiros com maior proporção que o INT;
+● DATE: data no formato YYYY-MM-DD
+
+## Criar tabela:
+CREATE TABELA nome_da_tabela (
+    nome_da_coluna tipodedado,
+    ...
+);
+
+## Deletar tabela:
+DROP TABLE nome_da_tabela;
+
+## Adicionar campo na tabela:
+ALTER TABLE nome_da_tabela ADD nome_do_campo typo_do_campo
+
+## Excluir campo na tabela:
+ALTER TABLE nome_da_tabela ADD nome_do_campo
+
+## Alterar tipo de uma coluna:
+ALTER TABLE nome_da_tabela MODIFY COLUMN nome_do_campo typo_novo
+
+## Renomear campo na tabela:
+ALTER TABLE nome_da_tabela CHANGE nome_antigo nome_novo tipo_de_dado;
+
+## Inserir dados em tabela:
+INSERT INTO `nome_da_tabela` (`id`, `nome`, `pai`) VALUES (12, 'Analista', 'main');
+
+
+## Constraints:
+- NOT NULL       = Valores não nulo
+- PRIMARY KEY    = Chave primária
+- UNIQUE         = Valores únicos
+- UNSIGNED       = Apenas valores positivos
+- AUTO_INCREMENT = Adiciona sozinho
+
+## Filtro:
+SELECT colunas FROM nome_da_tabela WHERE confição
+
+## Condições
+SELECT colunas FROM nome_da_tabela WHERE condição AND/OR/NOT condição
+AND   = e
+OR    = ou
+NOT   = não
+
+## Ordem de resultados
+ORDER BY nome_do_campo 
+DESC  = Maior para o menor
+ASC   = Menor para o maior
+
+## Atualizar dado:
+UPDATE nome_da_tabela SET nome_da_coluna = valor_a_atribuir WHERE condição
+
+## Deletar dado:
+DELETE FROM nome_da_tabela WHERE condição
+
+## Ver todos os usuários do banco de dados:
+SELECT * FROM mysql.user;
+
+## Criar usuário para banco de dados:
+CREATE USER ‘usuario’@’localhost’ IDENTIFIED BY ‘senha’;
+GRANT ALL PRIVILEGES ON * . * TO ‘usuario’@’localhost’;
+FLUSH PRIVILEGES;
