@@ -17,9 +17,19 @@ class EventController extends Controller
     public function store(Request $request){
         $event = new Event();
         $event->title = $request->title;
+        $event->date = $request->date;
         $event->description = $request->description;
         $event->city = $request->city;
         $event->private = $request->private;
+        $event->itens = $request->itens;
+
+        // image
+        if($request->hasFile('file') && $request->file('file')->isValid()){
+            $extension = $request->file->extension();
+            $imageName = md5($request->file->getClientOriginalName().strtotime('now')).".".$extension;
+            $request->file->move(public_path('images/events'), $imageName);
+            $event->image = $imageName;
+        }
 
         $event->save();
         return redirect('/')->with('msg', 'Evento criado com sucesso!')->with('type', 'success');;
@@ -28,7 +38,7 @@ class EventController extends Controller
         return view('events.listall');
     }
     public function event($id){
-        $event = Event::find(1);
+        $event = Event::findOrFail(1);
         $event = $event::where('id', $id)->first();
         return view('events.one', ['event' => $event]);
     }
